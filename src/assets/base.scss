@@ -1,0 +1,54 @@
+.title {
+  font-size: $text-title-size;
+  padding: $spacing-xs;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: $text-subtitle-size;
+  color: $subtitle;
+  padding: $spacing-xs;
+}
+
+.tile {
+  font-size: $text-tile-size;
+}
+
+.tile-title {
+  font-size: $text-title-title-size;
+  color: $tile-title;
+}
+
+.tile,
+.tile-title {
+  padding: $spacing-md;
+}
+
+.list-user-id-title {
+  font-size: $text-list-user-id-size;
+  padding: $spacing-xs;
+  font-weight: bold;
+}
+
+.details-user-id {
+  font-size: $text-details-user-id-size;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+thead tr th {
+  color: $subtitle;
+  padding: $spacing-md;
+  font-size: $text-subtitle-size;
+  text-align: left;
+}
+
+tbody tr td {
+  padding: $spacing-md;
+  font-size: $text-title-size;
+  border-bottom: $table-border;
+  border-top: $table-border;
+}
